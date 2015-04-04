@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c5bb6e40-ccd0-49c0-bf18-ab00c1c8b43a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CaptureModule">
+      <UniqueIdentifier>{c52529f4-35f4-4bb1-a696-d784696eb65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DisplayModule">
+      <UniqueIdentifier>{17c61ab7-f8c0-4346-a33f-1aae75c333e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntegrationModule">
+      <UniqueIdentifier>{d6942f09-a21d-4e01-ab8b-36a5b2015b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{99a89e58-f605-4306-bd65-58aa405a7d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\old">
+      <UniqueIdentifier>{817dcf43-4c8c-499f-8542-f8edf1c08f31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\IntegrationModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="mainCapture.cpp">
+      <Filter>Source Files\CaptureModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallelepiped.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>Source Files\old</Filter>
+    </ClCompile>
+    <ClCompile Include="mainDisplay.cpp">
+      <Filter>Source Files\DisplayModule</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayParameter.cpp">
+      <Filter>Source Files\DisplayModule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shapes.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="mainDisplay.h">
+      <Filter>Source Files\DisplayModule</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCapture.h">
+      <Filter>Source Files\CaptureModule</Filter>
+    </ClInclude>
+    <ClInclude Include="OldWindowMain.h">
+      <Filter>Source Files\old</Filter>
+    </ClInclude>
+    <ClInclude Include="OldWindowManag.h">
+      <Filter>Source Files\old</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Source Files\old</Filter>
+    </ClInclude>
+    <ClInclude Include="mainIntegration.h">
+      <Filter>Source Files\IntegrationModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Source Files\DisplayModule</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayParameter.h">
+      <Filter>Source Files\DisplayModule</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
